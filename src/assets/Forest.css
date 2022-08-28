@@ -1,0 +1,20 @@
+html {
+    background-color: whitesmoke;
+    font-family: monospace;
+    color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    margin: 1vh;
+    padding: 1vh;
+}
+
+body {
+    margin: 1vh;
+    padding: 1vh;
+    font-size: larger;
+}
