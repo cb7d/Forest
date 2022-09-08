@@ -17,12 +17,12 @@ onMounted(() => {
 </script>
 
 <template>
-    <header>
+    <div>
         {{ date }}
-    </header>
-    <body>
+    </div>
+    <div>
         007 No Time To Die
-    </body>
+    </div>
 </template>
 
 <style>
