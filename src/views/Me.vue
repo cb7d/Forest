@@ -1,6 +1,3 @@
-<!-- https://www.jianshu.com/p/91328e6934c9 -->
-<!-- https://zhuanlan.zhihu.com/p/28967069 -->
-
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import { RouterLink, RouterView } from "vue-router";
@@ -13,22 +10,16 @@ const getNowTime = () => {
 onMounted(() => {
     setInterval(() => {
         getNowTime()
-    }, 500)
+    }, 1000)
 });
 </script>
-
+        
 <template>
-    <h3>
-        {{ date }}
-    </h3>
-    <h1>
-        007 No Time To Die
-    </h1>
-    <RouterLink to="/functions">Functions =></RouterLink>
     <br>
-    <RouterView />
+    <RouterLink to="/functions">Login =></RouterLink>
+    <br>
 </template>
-
+        
 <style>
 
 </style>
