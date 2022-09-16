@@ -13,27 +13,15 @@ onMounted(() => {
     }, 1000)
 });
 </script>
-    
+        
 <template>
-    <!-- <h3>
-        {{ date }}
-    </h3>
-    <h1>
-        007 No Time To Die
-    </h1>
-    <RouterLink to="/about">About</RouterLink>
-    <RouterView /> -->
-    <ul>
-        <li>
-            <RouterLink to="/time">Time =></RouterLink>
-        </li>
-        <li>Date</li>
-        <li>Weather</li>
-        <li>News</li>
-        <li>Blogs</li>
-    </ul>
+    <RouterLink to="/funcs">Functions =></RouterLink>
+    <br>
+    <br>
+    <RouterLink to="/funcs">Login =></RouterLink>
+    <br>
 </template>
-    
+        
 <style>
 
 </style>

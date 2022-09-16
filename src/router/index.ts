@@ -23,7 +23,7 @@ import { createRouter, createWebHistory } from "vue-router";
 // export default router;
 
 
-import HomeView from "../views/Me.vue";
+import HomeView from "../views/Root.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,12 +34,14 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/functions",
-      name: "functions",
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
+      path: "/funcs",
+      name: "funcs",
       component: () => import("../views/FuncList.vue"),
+    },
+    {
+      path: "/time",
+      name: "time",
+      component: () => import("../views/Time.vue"),
     },
   ],
 });

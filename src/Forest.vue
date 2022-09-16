@@ -21,11 +21,9 @@ onMounted(() => {
     <h3>
         {{ date }}
     </h3>
-    <h1>
+    <h2>
         007 No Time To Die
-    </h1>
-    <RouterLink to="/functions">Functions =></RouterLink>
-    <br>
+    </h2>
     <RouterView />
 </template>
 
